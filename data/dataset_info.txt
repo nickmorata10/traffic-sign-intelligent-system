@@ -1,0 +1,6 @@
+Dataset used: German Traffic Sign Recognition Benchmark (GTSRB)
+
+Images downloaded and prepared for training.
+Dataset split into train / validation / test.
+
+Used for CNN traffic sign classifier.
