@@ -1,0 +1,4 @@
+Episode 1 reward: 10
+Episode 2 reward: 15
+Episode 3 reward: 8
+Episode 4 reward: 21
