@@ -1,0 +1,7 @@
+CNN Accuracy: 0.88
+Macro F1 Score: 0.85
+
+Baseline Accuracy: 0.65
+
+RL Reward: 25
+Success Rate: 85%
