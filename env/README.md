@@ -1,8 +1,8 @@
-#Environment Configuration
+# Environment Configuration
 
 This directory contains the necessary configuration files to recreate the exact development environment used for the **Traffic Sign Intelligent System**.
 
-## ##Setup Options
+## Setup Options
 
 ### **Option 1: Using Conda (Recommended)**
 If you have Anaconda or Miniconda installed, run the following command to create the environment with all dependencies:
