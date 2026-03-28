@@ -1,13 +1,16 @@
-import random
+import numpy as np
 
-actions = ["go", "stop", "slow"]
-reward = 0
+class QLearningAgent:
+    def __init__(self, actions=['Stop', 'Slow', 'Go']):
+        self.q_table = {}
+        self.actions = actions
+        self.lr = 0.1
+        self.gamma = 0.9
 
-for episode in range(10):
-    action = random.choice(actions)
-    if action == "go":
-        reward += 10
-    else:
-        reward -= 5
+    def get_reward(self, sign, action):
+        # Reward Logic for Ethics/Policy
+        if sign == 'Stop' and action == 'Stop': return 10
+        if sign == 'Stop' and action == 'Go': return -50
+        return 1
 
-print("Total Reward:", reward)
+print("RL Agent Q-Table initialized. Reward function mapped to safety logic.")
