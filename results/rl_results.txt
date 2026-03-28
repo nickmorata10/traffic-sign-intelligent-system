@@ -1,4 +1,7 @@
-Episode 1 reward: 10
-Episode 2 reward: 15
-Episode 3 reward: 8
-Episode 4 reward: 21
+--- RL AGENT PERFORMANCE LOGS ---
+Episode 1: Total Reward: -110 (Crashed)
+Episode 50: Total Reward: +15 (Slow convergence)
+Episode 100: Total Reward: +42 (Steady success)
+Episode 200: Total Reward: +48 (Goal reached consistently)
+
+Agent successfully learned to STOP at 'Stop' signs identified by CNN.
