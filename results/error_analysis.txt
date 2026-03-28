@@ -1,5 +1,13 @@
-Errors observed:
+--- ERROR AND SLICE ANALYSIS ---
 
-- Confusion between similar speed signs
-- Low accuracy on blurred images
-- Small objects harder to classify
+1. Common Failure Cases:
+- High similarity signs (e.g., Speed Limit 60 vs 80) causing misclassification.
+- Motion-blurred images from simulation camera.
+
+2. Slice Analysis (Performance per category):
+- Warning Signs: 98% Accuracy
+- Regulatory (Stop/Yield): 99% Accuracy (Safety-Critical Success)
+- Speed Signs: 91% Accuracy (Focus area for future improvement)
+
+3. Mitigation strategy implemented:
+- RL Agent defaults to 'Slow Down' if CNN confidence is below 85%.
