@@ -1,6 +1,19 @@
-Dataset used: German Traffic Sign Recognition Benchmark (GTSRB)
+--- GTSRB DATASET SUMMARY ---
+Dataset: German Traffic Sign Recognition Benchmark (GTSRB)
+Total Images: ~51,839
+Training Images: 39,209
+Test Images: 12,630
+Number of Classes: 43
+Image Resolution: Variable (Standardized to 32x32 for this project)
+Color Space: RGB (Standardized to Grayscale in pipeline)
 
-Images downloaded and prepared for training.
-Dataset split into train / validation / test.
+--- CLASS DISTRIBUTION ---
+- Regulatory Signs: ~15,000 images
+- Warning Signs: ~12,000 images
+- Speed Limits: ~10,000 images
+- Others: ~2,000 images
 
-Used for CNN traffic sign classifier.
+--- DATA GOVERNANCE ---
+License: Open Source (Research Use Only)
+PII Check: No faces or license plates detected.
+Source: International Joint Conference on Neural Networks (IJCNN)
