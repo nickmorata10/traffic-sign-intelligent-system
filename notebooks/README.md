@@ -3,7 +3,6 @@
 This directory contains Jupyter notebooks and analysis scripts used during the **Exploratory Data Analysis (EDA)** and prototyping phases.
 
 ## Contents
-* **`eda.ipynb`**: Visual exploration of the GTSRB dataset, including class distribution, image brightness analysis, and sample visualizations.
 * **`eda.txt`**: A summarized text version of the findings for quick reference.
 
 ## Key Insights from Analysis
