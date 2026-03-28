@@ -1,4 +1,8 @@
-tensorflow
 numpy
-scikit-learn
+pandas
 matplotlib
+scikit-learn
+torch
+torchvision
+opencv-python
+pillow
