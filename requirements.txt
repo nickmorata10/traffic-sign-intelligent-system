@@ -1,1 +1,4 @@
-requirements.txt
+tensorflow
+numpy
+scikit-learn
+matplotlib
