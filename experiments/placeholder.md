@@ -1,10 +1,10 @@
-# 🧪 Experiment Validation Gallery
+# Experiment Validation Gallery
 
 This directory contains visual evidence of the system's performance, environment configuration, and repository integrity. These artifacts validate the results reported in the `results/` directory.
 
 ---
 
-## 📸 Validation Artifacts
+## Validation Artifacts
 
 ### 1. **Core Result Validation** (`screenshot.PNG`)
 * **Description**: Captures the final terminal output of the `src/eval.py` execution.
