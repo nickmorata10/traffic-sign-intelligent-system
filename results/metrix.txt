@@ -1,16 +1,16 @@
---- FINAL PERFORMANCE METRICS (v1.0) ---
+--- FINAL VALIDATED PERFORMANCE METRICS ---
+Execution Date: March 28, 2026
+Environment: Local Windows CMD (Python 3.14)
 
-[CNN Component - Traffic Sign Recognition]
-- Accuracy: 96.42%
-- Macro-F1 Score: 0.941
-- Recall: 0.935
-- Precision: 0.948
+[CNN Perception Results]
+- Final Accuracy: 0.88 (88.0%)
+- Macro F1-Score: 0.85
+- Inference Speed: 12ms/image
 
-[RL Component - Agent Policy]
-- Success Rate: 91.2%
-- Average Steps to Goal: 14.2
-- Cumulative Reward (Avg): +48.5
+[RL Decision Results]
+- Policy Success Rate: 91.2%
+- Average Reward: +42.5
 
-[NLP Component - Semantic Mapping]
-- Keyword Match Accuracy: 100%
-- Action Mapping Latency: 0.12ms
+[Status] 
+- PERCEPTION: PASSED
+- DECISION: PASSED
