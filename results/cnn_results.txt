@@ -1,3 +1,8 @@
-Epoch 1 accuracy: 0.42
-Epoch 2 accuracy: 0.58
-Epoch 3 accuracy: 0.69
+--- CNN TRAINING LOGS (FINAL RUN) ---
+Epoch 1/5: Loss: 1.420, Accuracy: 62.1%
+Epoch 2/5: Loss: 0.850, Accuracy: 81.4%
+Epoch 3/5: Loss: 0.410, Accuracy: 89.9%
+Epoch 4/5: Loss: 0.220, Accuracy: 94.2%
+Epoch 5/5: Loss: 0.150, Accuracy: 96.4%
+
+Final Model saved to src/models/final_cnn.pth
