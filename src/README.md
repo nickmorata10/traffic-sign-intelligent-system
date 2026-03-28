@@ -1,10 +1,10 @@
-#Source Code Architecture
+# Source Code Architecture
 
 This directory contains the core logic for the **Traffic Sign Intelligent System**, organized into a modular pipeline from data processing to reinforcement learning.
 
 ---
 
-## 🏗 Modular Components
+## Modular Components
 
 ### **1. Data & Pre-processing**
 * **`data_pipeline.py`**: Handles image resizing (32x32), grayscale conversion, and normalization. It prepares the GTSRB data for the CNN.
