@@ -1,0 +1,5 @@
+Errors observed:
+
+- Confusion between similar speed signs
+- Low accuracy on blurred images
+- Small objects harder to classify
